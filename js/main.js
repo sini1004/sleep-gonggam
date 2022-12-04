@@ -22,7 +22,7 @@ $("#top").click(function(e){
 
 //best slide
 var swiper = new Swiper('.swiper-container',{
-  slidesPerView: 5,
+  slidesPerView: 3,
   spaceBetween: 35,
   grabCursor: true,
     keyboard: {
@@ -38,15 +38,15 @@ var swiper = new Swiper('.swiper-container',{
     },
     breakpoints: {
       600: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 35
         },
       960: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 35
         },
       1024 : {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween:35
       }
     }

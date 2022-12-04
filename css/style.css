@@ -193,7 +193,7 @@ main .text{
 .best .item img{ 	
   width: 100%; 
   height: 100%;
-	border-radius: 50%;
+	border-radius: 20px;
 }
 .best figcaption{ 
   margin-top: 30px;
